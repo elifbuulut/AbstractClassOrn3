@@ -8,8 +8,10 @@ namespace AbstractClassOrn3
 {
     internal class Program
     {
-        // 1 adet ortak , mobilya abstract classımız olacak. Mobilya da bir adet renk field olacak ve OzellikVer() methodumuz olacak 
-        // 2 adet classımız olacak .Classlarımız Gardrop ve Masa  olacak ve her ikisinin kendine has özellikleri olacak 
+        // 1 adet ortak , mobilya abstract class. 
+        //Mobilya da bir adet renk field 
+        //OzellikVer() methodu 
+        // 2 adet class .Classlar Gardrop ve Masa . Her ikisinin kendine has özellikleri olacak 
         static void Main(string[] args)
         {
             Masa masa = new Masa()
@@ -41,7 +43,7 @@ namespace AbstractClassOrn3
             get { return _renk; }
             set { _renk = value; }
         }
-        abstract public void OzellikVer(); // abstract methodum
+        abstract public void OzellikVer(); // abstract methodu
 
 
     }
